@@ -14,6 +14,26 @@
 		67A01ACE2B4DCB9E0055C8AF /* MBTA_Map_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01ACD2B4DCB9E0055C8AF /* MBTA_Map_AppTests.swift */; };
 		67A01AD82B4DCB9E0055C8AF /* MBTA_Map_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AD72B4DCB9E0055C8AF /* MBTA_Map_AppUITests.swift */; };
 		67A01ADA2B4DCB9E0055C8AF /* MBTA_Map_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AD92B4DCB9E0055C8AF /* MBTA_Map_AppUITestsLaunchTests.swift */; };
+		67A01AED2B4DCBBA0055C8AF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A01AEC2B4DCBBA0055C8AF /* WidgetKit.framework */; };
+		67A01AEF2B4DCBBA0055C8AF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A01AEE2B4DCBBA0055C8AF /* SwiftUI.framework */; };
+		67A01AF22B4DCBBA0055C8AF /* MBTA_Map_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AF12B4DCBBA0055C8AF /* MBTA_Map_WidgetBundle.swift */; };
+		67A01AF42B4DCBBA0055C8AF /* MBTA_Map_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AF32B4DCBBA0055C8AF /* MBTA_Map_WidgetLiveActivity.swift */; };
+		67A01AF62B4DCBBA0055C8AF /* MBTA_Map_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AF52B4DCBBA0055C8AF /* MBTA_Map_Widget.swift */; };
+		67A01AF92B4DCBBB0055C8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A01AF82B4DCBBB0055C8AF /* Assets.xcassets */; };
+		67A01AFB2B4DCBBB0055C8AF /* MBTA_Map_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AF72B4DCBBA0055C8AF /* MBTA_Map_Widget.intentdefinition */; };
+		67A01AFC2B4DCBBB0055C8AF /* MBTA_Map_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 67A01AF72B4DCBBA0055C8AF /* MBTA_Map_Widget.intentdefinition */; };
+		67A01AFF2B4DCBBB0055C8AF /* MBTA Map WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 67A01AEA2B4DCBBA0055C8AF /* MBTA Map WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67A01B082B4DE1350055C8AF /* MbtaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B072B4DE1350055C8AF /* MbtaMap.swift */; };
+		67A01B092B4DE1350055C8AF /* MbtaMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B072B4DE1350055C8AF /* MbtaMap.swift */; };
+		67A01B0A2B4DE3860055C8AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A01AC02B4DCB9E0055C8AF /* Assets.xcassets */; };
+		67A01B0D2B4DF06D0055C8AF /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B0C2B4DF06D0055C8AF /* Train.swift */; };
+		67A01B0E2B4DF06D0055C8AF /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B0C2B4DF06D0055C8AF /* Train.swift */; };
+		67A01B102B4DFA1B0055C8AF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B0F2B4DFA1B0055C8AF /* Data.swift */; };
+		67A01B112B4DFA1B0055C8AF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B0F2B4DFA1B0055C8AF /* Data.swift */; };
+		67A01B142B4EF1B00055C8AF /* TrainTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B132B4EF1B00055C8AF /* TrainTrackerModel.swift */; };
+		67A01B152B4EF1B00055C8AF /* TrainTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B132B4EF1B00055C8AF /* TrainTrackerModel.swift */; };
+		67A01B172B56F8A30055C8AF /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B162B56F8A30055C8AF /* ViewModels.swift */; };
+		67A01B182B56F8A30055C8AF /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A01B162B56F8A30055C8AF /* ViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +51,28 @@
 			remoteGlobalIDString = 67A01AB82B4DCB9D0055C8AF;
 			remoteInfo = "MBTA Map App";
 		};
+		67A01AFD2B4DCBBB0055C8AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67A01AB12B4DCB9D0055C8AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A01AE92B4DCBBA0055C8AF;
+			remoteInfo = "MBTA Map WidgetExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67A01B032B4DCBBB0055C8AF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67A01AFF2B4DCBBB0055C8AF /* MBTA Map WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		67A01AB92B4DCB9D0055C8AF /* MBTA Map App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBTA Map App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +85,20 @@
 		67A01AD32B4DCB9E0055C8AF /* MBTA Map AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBTA Map AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A01AD72B4DCB9E0055C8AF /* MBTA_Map_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTA_Map_AppUITests.swift; sourceTree = "<group>"; };
 		67A01AD92B4DCB9E0055C8AF /* MBTA_Map_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTA_Map_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67A01AEA2B4DCBBA0055C8AF /* MBTA Map WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MBTA Map WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A01AEC2B4DCBBA0055C8AF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		67A01AEE2B4DCBBA0055C8AF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		67A01AF12B4DCBBA0055C8AF /* MBTA_Map_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTA_Map_WidgetBundle.swift; sourceTree = "<group>"; };
+		67A01AF32B4DCBBA0055C8AF /* MBTA_Map_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTA_Map_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		67A01AF52B4DCBBA0055C8AF /* MBTA_Map_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBTA_Map_Widget.swift; sourceTree = "<group>"; };
+		67A01AF72B4DCBBA0055C8AF /* MBTA_Map_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = MBTA_Map_Widget.intentdefinition; sourceTree = "<group>"; };
+		67A01AF82B4DCBBB0055C8AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67A01AFA2B4DCBBB0055C8AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A01B072B4DE1350055C8AF /* MbtaMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbtaMap.swift; sourceTree = "<group>"; };
+		67A01B0C2B4DF06D0055C8AF /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		67A01B0F2B4DFA1B0055C8AF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		67A01B132B4EF1B00055C8AF /* TrainTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTrackerModel.swift; sourceTree = "<group>"; };
+		67A01B162B56F8A30055C8AF /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +123,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67A01AE72B4DCBBA0055C8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A01AEF2B4DCBBA0055C8AF /* SwiftUI.framework in Frameworks */,
+				67A01AED2B4DCBBA0055C8AF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +141,8 @@
 				67A01ABB2B4DCB9D0055C8AF /* MBTA Map App */,
 				67A01ACC2B4DCB9E0055C8AF /* MBTA Map AppTests */,
 				67A01AD62B4DCB9E0055C8AF /* MBTA Map AppUITests */,
+				67A01AF02B4DCBBA0055C8AF /* MBTA Map Widget */,
+				67A01AEB2B4DCBBA0055C8AF /* Frameworks */,
 				67A01ABA2B4DCB9D0055C8AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +153,7 @@
 				67A01AB92B4DCB9D0055C8AF /* MBTA Map App.app */,
 				67A01AC92B4DCB9E0055C8AF /* MBTA Map AppTests.xctest */,
 				67A01AD32B4DCB9E0055C8AF /* MBTA Map AppUITests.xctest */,
+				67A01AEA2B4DCBBA0055C8AF /* MBTA Map WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +161,8 @@
 		67A01ABB2B4DCB9D0055C8AF /* MBTA Map App */ = {
 			isa = PBXGroup;
 			children = (
+				67A01B0B2B4DF0590055C8AF /* Models */,
+				67A01B042B4DE0C00055C8AF /* UI */,
 				67A01ABC2B4DCB9D0055C8AF /* MBTA_Map_AppApp.swift */,
 				67A01ABE2B4DCB9D0055C8AF /* ContentView.swift */,
 				67A01AC02B4DCB9E0055C8AF /* Assets.xcassets */,
@@ -127,6 +196,71 @@
 			path = "MBTA Map AppUITests";
 			sourceTree = "<group>";
 		};
+		67A01AEB2B4DCBBA0055C8AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A01AEC2B4DCBBA0055C8AF /* WidgetKit.framework */,
+				67A01AEE2B4DCBBA0055C8AF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67A01AF02B4DCBBA0055C8AF /* MBTA Map Widget */ = {
+			isa = PBXGroup;
+			children = (
+				67A01AF12B4DCBBA0055C8AF /* MBTA_Map_WidgetBundle.swift */,
+				67A01AF32B4DCBBA0055C8AF /* MBTA_Map_WidgetLiveActivity.swift */,
+				67A01AF52B4DCBBA0055C8AF /* MBTA_Map_Widget.swift */,
+				67A01AF72B4DCBBA0055C8AF /* MBTA_Map_Widget.intentdefinition */,
+				67A01AF82B4DCBBB0055C8AF /* Assets.xcassets */,
+				67A01AFA2B4DCBBB0055C8AF /* Info.plist */,
+			);
+			path = "MBTA Map Widget";
+			sourceTree = "<group>";
+		};
+		67A01B042B4DE0C00055C8AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				67A01B122B4EF17A0055C8AF /* Screens */,
+				67A01B062B4DE0E60055C8AF /* Molecules */,
+				67A01B052B4DE0DA0055C8AF /* Organisms */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		67A01B052B4DE0DA0055C8AF /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
+		67A01B062B4DE0E60055C8AF /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+				67A01B072B4DE1350055C8AF /* MbtaMap.swift */,
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		67A01B0B2B4DF0590055C8AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67A01B0C2B4DF06D0055C8AF /* Train.swift */,
+				67A01B0F2B4DFA1B0055C8AF /* Data.swift */,
+				67A01B162B56F8A30055C8AF /* ViewModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67A01B122B4EF17A0055C8AF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				67A01B132B4EF1B00055C8AF /* TrainTrackerModel.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +271,12 @@
 				67A01AB52B4DCB9D0055C8AF /* Sources */,
 				67A01AB62B4DCB9D0055C8AF /* Frameworks */,
 				67A01AB72B4DCB9D0055C8AF /* Resources */,
+				67A01B032B4DCBBB0055C8AF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				67A01AFE2B4DCBBB0055C8AF /* PBXTargetDependency */,
 			);
 			name = "MBTA Map App";
 			productName = "MBTA Map App";
@@ -183,6 +319,23 @@
 			productReference = 67A01AD32B4DCB9E0055C8AF /* MBTA Map AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		67A01AE92B4DCBBA0055C8AF /* MBTA Map WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67A01B002B4DCBBB0055C8AF /* Build configuration list for PBXNativeTarget "MBTA Map WidgetExtension" */;
+			buildPhases = (
+				67A01AE62B4DCBBA0055C8AF /* Sources */,
+				67A01AE72B4DCBBA0055C8AF /* Frameworks */,
+				67A01AE82B4DCBBA0055C8AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBTA Map WidgetExtension";
+			productName = "MBTA Map WidgetExtension";
+			productReference = 67A01AEA2B4DCBBA0055C8AF /* MBTA Map WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +357,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 67A01AB82B4DCB9D0055C8AF;
 					};
+					67A01AE92B4DCBBA0055C8AF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 67A01AB42B4DCB9D0055C8AF /* Build configuration list for PBXProject "MBTA Map App" */;
@@ -222,6 +378,7 @@
 				67A01AB82B4DCB9D0055C8AF /* MBTA Map App */,
 				67A01AC82B4DCB9E0055C8AF /* MBTA Map AppTests */,
 				67A01AD22B4DCB9E0055C8AF /* MBTA Map AppUITests */,
+				67A01AE92B4DCBBA0055C8AF /* MBTA Map WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +407,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67A01AE82B4DCBBA0055C8AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A01B0A2B4DE3860055C8AF /* Assets.xcassets in Resources */,
+				67A01AF92B4DCBBB0055C8AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,7 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A01AFC2B4DCBBB0055C8AF /* MBTA_Map_Widget.intentdefinition in Sources */,
+				67A01B142B4EF1B00055C8AF /* TrainTrackerModel.swift in Sources */,
+				67A01B172B56F8A30055C8AF /* ViewModels.swift in Sources */,
+				67A01B102B4DFA1B0055C8AF /* Data.swift in Sources */,
 				67A01ABF2B4DCB9D0055C8AF /* ContentView.swift in Sources */,
+				67A01B082B4DE1350055C8AF /* MbtaMap.swift in Sources */,
+				67A01B0D2B4DF06D0055C8AF /* Train.swift in Sources */,
 				67A01ABD2B4DCB9D0055C8AF /* MBTA_Map_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +451,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67A01AE62B4DCBBA0055C8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A01B112B4DFA1B0055C8AF /* Data.swift in Sources */,
+				67A01AF22B4DCBBA0055C8AF /* MBTA_Map_WidgetBundle.swift in Sources */,
+				67A01B092B4DE1350055C8AF /* MbtaMap.swift in Sources */,
+				67A01B182B56F8A30055C8AF /* ViewModels.swift in Sources */,
+				67A01AF62B4DCBBA0055C8AF /* MBTA_Map_Widget.swift in Sources */,
+				67A01AFB2B4DCBBB0055C8AF /* MBTA_Map_Widget.intentdefinition in Sources */,
+				67A01B152B4EF1B00055C8AF /* TrainTrackerModel.swift in Sources */,
+				67A01B0E2B4DF06D0055C8AF /* Train.swift in Sources */,
+				67A01AF42B4DCBBA0055C8AF /* MBTA_Map_WidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +479,11 @@
 			isa = PBXTargetDependency;
 			target = 67A01AB82B4DCB9D0055C8AF /* MBTA Map App */;
 			targetProxy = 67A01AD42B4DCB9E0055C8AF /* PBXContainerItemProxy */;
+		};
+		67A01AFE2B4DCBBB0055C8AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67A01AE92B4DCBBA0055C8AF /* MBTA Map WidgetExtension */;
+			targetProxy = 67A01AFD2B4DCBBB0055C8AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +605,7 @@
 		67A01ADE2B4DCB9E0055C8AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +635,7 @@
 		67A01ADF2B4DCB9E0055C8AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +738,60 @@
 			};
 			name = Release;
 		};
+		67A01B012B4DCBBB0055C8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2UMYETYC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MBTA Map Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MBTA Map Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chadwishner.MBTA-Map-App.MBTA-Map-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67A01B022B4DCBBB0055C8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2UMYETYC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MBTA Map Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MBTA Map Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chadwishner.MBTA-Map-App.MBTA-Map-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,6 +827,15 @@
 			buildConfigurations = (
 				67A01AE42B4DCB9E0055C8AF /* Debug */,
 				67A01AE52B4DCB9E0055C8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67A01B002B4DCBBB0055C8AF /* Build configuration list for PBXNativeTarget "MBTA Map WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67A01B012B4DCBBB0055C8AF /* Debug */,
+				67A01B022B4DCBBB0055C8AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
