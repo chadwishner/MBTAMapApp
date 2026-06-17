@@ -58,7 +58,7 @@ struct MBTA_Map_Widget: Widget {
         }
         .configurationDisplayName("MBTA Map")
         .description("Realtime location of every MBTA rapid-transit train.")
-        .supportedFamilies([.systemExtraLarge])
+        .supportedFamilies([.systemLarge, .systemExtraLarge])
         .contentMarginsDisabled()
     }
 }

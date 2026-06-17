@@ -58,8 +58,9 @@ struct ContentView: View {
                 instructionRow(number: 1, text: "Touch and hold an empty area of your Home Screen until the apps jiggle.")
                 instructionRow(number: 2, text: "Tap the **+** button in the upper-left corner.")
                 instructionRow(number: 3, text: "Search for **MBTA Map** and select it.")
-                instructionRow(number: 4, text: "Tap **Add Widget**.")
-                instructionRow(number: 5, text: "Tap **Done** to finish.")
+                instructionRow(number: 4, text: "If on iPad, swipe to choose **Large** or **Extra Large**, then tap **Add Widget**.")
+                instructionRow(number: 5, text: "Tap **Add Widget**.")
+                instructionRow(number: 6, text: "Tap **Done** to finish.")
             }
         } header: {
             sectionHeader("Add the widget")
