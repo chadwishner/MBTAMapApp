@@ -7,12 +7,25 @@
 		<key>MBTA Map App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>MBTA Map WidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>67A01AB82B4DCB9D0055C8AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>67A01AE92B4DCBBA0055C8AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

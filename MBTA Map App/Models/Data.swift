@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 enum TrainLine {
     case orange
@@ -15,6 +16,19 @@ enum TrainLine {
     case greenE
     case red
     case blue
+
+    init?(routeId: String) {
+        switch routeId {
+        case "Orange":  self = .orange
+        case "Red":     self = .red
+        case "Blue":    self = .blue
+        case "Green-B": self = .greenB
+        case "Green-C": self = .greenC
+        case "Green-D": self = .greenD
+        case "Green-E": self = .greenE
+        default: return nil
+        }
+    }
 }
 
 enum Stops: String {
@@ -148,3 +162,71 @@ enum Direction: Int {
     case northOrEast = 0
     case southOrWest = 1
 }
+extension Stops {
+    /// Position of the stop on the Map asset, expressed as a fraction of the image's
+    /// width/height (0...1). Multiply by the rendered image size to get pixel coordinates.
+    var normalizedPoint: CGPoint {
+        switch self {
+        case .reservoir:         return CGPoint(x: 0, y: 0)
+        case .forestHills:       return CGPoint(x: 0, y: 0)
+        case .backBay:           return CGPoint(x: 0, y: 0)
+        case .northStation:      return CGPoint(x: 0, y: 0)
+        case .wonderland:        return CGPoint(x: 0, y: 0)
+        case .magounSquare:      return CGPoint(x: 0, y: 0)
+        case .orientHeights:     return CGPoint(x: 0, y: 0)
+        case .harvard:           return CGPoint(x: 0, y: 0)
+        case .bowdoin:           return CGPoint(x: 0, y: 0)
+        case .unionSquare:       return CGPoint(x: 0, y: 0)
+        case .centralAvenue:     return CGPoint(x: 0, y: 0)
+        case .packardsCorner:    return CGPoint(x: 0, y: 0)
+        case .bostonCollege:     return CGPoint(x: 0, y: 0)
+        case .alewife:           return CGPoint(x: 0, y: 0)
+        case .summitAvenue:      return CGPoint(x: 0, y: 0)
+        case .downtownCrossing:  return CGPoint(x: 0, y: 0)
+        case .beachmont:         return CGPoint(x: 0, y: 0)
+        case .broadway:          return CGPoint(x: 0, y: 0)
+        case .woodIsland:        return CGPoint(x: 0, y: 0)
+        case .tappanStreet:      return CGPoint(x: 0, y: 0)
+        case .babcockStreet:     return CGPoint(x: 0, y: 0)
+        case .allstonStreet:     return CGPoint(x: 0, y: 0)
+        case .warrenStreet:      return CGPoint(x: 0, y: 0)
+        case .stonyBrook:        return CGPoint(x: 0, y: 0)
+        case .butler:            return CGPoint(x: 0, y: 0)
+        case .fieldsCorner:      return CGPoint(x: 0, y: 0)
+        case .southStation:      return CGPoint(x: 0, y: 0)
+        case .charlesMgh:        return CGPoint(x: 0, y: 0)
+        case .davis:             return CGPoint(x: 0, y: 0)
+        case .airport:           return CGPoint(x: 0, y: 0)
+        case .newtonHighland:    return CGPoint(x: 0, y: 0)
+        case .valleyRoad:        return CGPoint(x: 0, y: 0)
+        case .central:           return CGPoint(x: 0, y: 0)
+        case .clevelandCircle:   return CGPoint(x: 0, y: 0)
+        case .fenway:            return CGPoint(x: 0, y: 0)
+        case .ashmont:           return CGPoint(x: 0, y: 0)
+        case .sullivanSquare:    return CGPoint(x: 0, y: 0)
+        case .oakGrove:          return CGPoint(x: 0, y: 0)
+        case .northQuincy:       return CGPoint(x: 0, y: 0)
+        case .aquarium:          return CGPoint(x: 0, y: 0)
+        case .kenmore:           return CGPoint(x: 0, y: 0)
+        case .roxburyCrossing:   return CGPoint(x: 0, y: 0)
+        case .andrew:            return CGPoint(x: 0, y: 0)
+        case .state:             return CGPoint(x: 0, y: 0)
+        case .assembly:          return CGPoint(x: 0, y: 0)
+        case .quincyAdams:       return CGPoint(x: 0, y: 0)
+        case .beaconsfield:      return CGPoint(x: 0, y: 0)
+        case .braintree:         return CGPoint(x: 0, y: 0)
+        case .wollaston:         return CGPoint(x: 0, y: 0)
+        case .wellington:        return CGPoint(x: 0, y: 0)
+        case .chestnutHill:      return CGPoint(x: 0, y: 0)
+        case .sciencePark:       return CGPoint(x: 0, y: 0)
+        case .medfordTufts:      return CGPoint(x: 0, y: 0)
+        case .waban:             return CGPoint(x: 0, y: 0)
+        case .brandonHall:       return CGPoint(x: 0, y: 0)
+        case .woodland:          return CGPoint(x: 0, y: 0)
+        case .parkStreet:        return CGPoint(x: 0, y: 0)
+        case .communityCollege:  return CGPoint(x: 0, y: 0)
+        case .porter:            return CGPoint(x: 0, y: 0)
+        }
+    }
+}
+

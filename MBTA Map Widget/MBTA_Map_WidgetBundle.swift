@@ -12,6 +12,5 @@ import SwiftUI
 struct MBTA_Map_WidgetBundle: WidgetBundle {
     var body: some Widget {
         MBTA_Map_Widget()
-        MBTA_Map_WidgetLiveActivity()
     }
 }
